@@ -2,9 +2,9 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { BalanceData } from '../data';
 
-import { Chart as ChartJS, LineElement } from 'chart.js';
+import { Chart, LineElement } from 'chart.js';
 
-ChartJS.register(LineElement);
+Chart.register(LineElement);
 
 const LineChart = () => {
   const data = {

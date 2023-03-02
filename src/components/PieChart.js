@@ -8,7 +8,7 @@ const PieChart = () => {
     datasets: [
       {
         label: 'Cutomers Lost',
-        data: CustomerData.map((data) => data.customerLost),
+        data: CustomerData.map((data) => data.customersLost),
         backgroundColor: ['#4FD1C5', '#E9D8FD', '#FC8181', '#f3ba2f', '#2a71d0'],
       },
     ],
@@ -16,7 +16,7 @@ const PieChart = () => {
 
   return (
     <div>
-      <h1>Pie Chart</h1>
+      <h1 style={{ color: '#0BC5EA' }}>Pie Chart</h1>
       <Pie data={data} />
     </div>
   );
