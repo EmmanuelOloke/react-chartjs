@@ -2,31 +2,31 @@ export const CustomerData = [
   {
     id: 1,
     year: 2017,
-    customerLost: 820,
+    customersLost: 820,
     customerGain: 60000,
   },
   {
     id: 2,
     year: 2018,
-    customerLost: 435,
+    customersLost: 435,
     customerGain: 35000,
   },
   {
     id: 3,
     year: 2019,
-    customerLost: 565,
+    customersLost: 565,
     customerGain: 48000,
   },
   {
     id: 4,
     year: 2020,
-    customerLost: 230,
+    customersLost: 230,
     customerGain: 50000,
   },
   {
     id: 5,
     year: 2021,
-    customerLost: 120,
+    customersLost: 120,
     customerGain: 40000,
   },
 ];
