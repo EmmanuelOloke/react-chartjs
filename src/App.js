@@ -12,7 +12,7 @@ function App() {
       <div style={{ width: '60vw', marginBottom: '2em' }}>
         <LineChart />
       </div>
-      <div style={{ width: '700px', marginBottom: '2em' }}>
+      <div style={{ width: '600px', marginBottom: '2em' }}>
         <PieChart />
       </div>
     </div>
